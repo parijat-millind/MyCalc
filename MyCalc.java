@@ -8,6 +8,9 @@ class MyCalc extends WindowAdapter implements ActionListener{
     Button add,sub,mult,div,moddiv,calc,clr,pts,back,neg;
     double xd;
     double num1,num2,check;
+    void helloWOrld(){
+        System.out.println("helloWorld --pariajt");
+    }
     MyCalc(){
         f=new JFrame("CALCULATOR");
         l1=new Label();
